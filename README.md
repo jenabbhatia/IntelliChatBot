@@ -17,6 +17,16 @@ A conversational Chatbot with tensorflow
         mode = test
     4.) then run the code like
         python chat.py
-      
+   
+    This cornell movie corpus contains a large metadata-rich collection of fictional conversations extracted from raw movie scripts:
+           1.) Download the processed data by running pull_data.sh
+                ./pull_data.sh
+           2.) After runninh pulldata script following files will be generated:
+                    train.enc
+                    train.dec
+                    test.enc
+                    test.dec
+           3.) Put the above generated files in /data folder
+           
     
 
